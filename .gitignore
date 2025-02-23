@@ -1,0 +1,46 @@
+# Python Virtual Environment
+venv/
+env/
+*.venv
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dependency Management
+*.egg-info/
+*.egg
+dist/
+build/
+pip-log.txt
+Pipfile.lock
+
+# Sensitive Data
+docs/              # Ignore your documents folder unless you want to version them
+.env               # Environment variable files
+*.key
+*.pem
+
+# ChromaDB Vector Store
+chroma_db/         # Local storage for ChromaDB persistence
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Editor-Specific Files
+.vscode/           # VS Code settings
+.idea/             # PyCharm/IDEA settings
+*.sublime-workspace
+
+# OS-Specific Files
+.DS_Store          # macOS Finder metadata
+Thumbs.db          # Windows thumbnail cache
+
+# Deployment-Specific (optional)
+fly.toml           # If you use Fly.io and don’t want to commit it
+*.pid
